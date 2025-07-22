@@ -1,4 +1,4 @@
-# svm_for_perching_prediction
+# perching_prediction
 
 ## Content
 
@@ -6,7 +6,7 @@
 - System Requirements
 - Installation Guide
 - Demo
-- Results
+- Instructions for use
 
 ## Overview
 
@@ -38,6 +38,8 @@ matplotlib
 sklearn
 random
 pylab
+pandas
+tensorflow
 ```
 
 ## Installation Guide
@@ -60,7 +62,13 @@ pip install matplotlib
 pip install sklearn
 pip install random
 pip install pylab
+pip install pandas
+pip install tensorflow
 ```
+
+### Typical install time
+
+- 1 hour.
 
 ### Download the code from github
 
@@ -68,6 +76,10 @@ pip install pylab
 git clonehttps://github.com/zqs-ops/svm_for_perching_prediction.git
 ```
 
-## Examples
+## Demo
 
 当构件完成代码运行环境后，你只需运行
+
+- Running time：
+
+### Instructions for use
