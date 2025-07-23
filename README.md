@@ -1,6 +1,6 @@
 # perching_prediction
 
-## Content
+## Contents
 
 - Overview
 - System requirements
@@ -20,14 +20,14 @@ The `perching_prediction` software package only requires a standard computer tha
 
 ### Software requirements
 
-#### OS Requirements
+#### OS requirements
 
 This package is supported for *Windows* and *Linux*. The package has been tested on the following systems:
 
 - Windows 11: Family Chinese Version (23H2)
 - Linux: Ubuntu 18.04
 
-#### Python Dependencies
+#### Python dependencies
 
 `perching_prediction` mainly depends on the Python scientific stack.
 
