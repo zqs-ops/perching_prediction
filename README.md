@@ -3,8 +3,8 @@
 ## Content
 
 - Overview
-- System Requirements
-- Installation Guide
+- System requirements
+- Installation guide
 - Demo
 - Instructions for use
 
@@ -12,7 +12,7 @@
 
 The software package contains three machine learning methods, namely `mlp`, `svm`, and `random forest`, which are used to predict the success of vertical wall perching of bionic flying robots with spines. Through the training of mixed sample data, a data-driven model was established to predict the success or failure of any perching event. This high-precision prediction optimizes the control and structural parameters of the robot and ensures stable perching .
 
-## System Requirements
+## System requirements
 
 ### Hardware requirements
 
@@ -42,7 +42,7 @@ pandas
 tensorflow
 ```
 
-## Installation Guide
+## Installation guide
 
 ### Install python 3.7
 
