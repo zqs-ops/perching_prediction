@@ -10,13 +10,13 @@
 
 ## Overview
 
-This software package is an efficient machine learning framework for predicting the success of vertical wall perching of bionic flying robots with spines, overcoming the inefficiency of traditional methods. Through the training of mixed sample data, a data-driven model was established to predict the success or failure of any perching event. This high-precision prediction optimizes the control and structural parameters of the robot and ensures stable perching .
+The software package contains three machine learning methods, namely `mlp`, `svm`, and `random forest`, which are used to predict the success of vertical wall perching of bionic flying robots with spines. Through the training of mixed sample data, a data-driven model was established to predict the success or failure of any perching event. This high-precision prediction optimizes the control and structural parameters of the robot and ensures stable perching .
 
 ## System Requirements
 
 ### Hardware requirements
 
-The `svm_for_perching_prediction` software package only requires a standard computer that supports Python3.7 and has sufficient RAM to support memory operations.
+The `perching_prediction` software package only requires a standard computer that supports Python3.7 and has sufficient RAM to support memory operations.
 
 ### Software requirements
 
@@ -29,7 +29,7 @@ This package is supported for *Windows* and *Linux*. The package has been tested
 
 #### Python Dependencies
 
-`svm_for_perching_prediction` mainly depends on the Python scientific stack.
+`perching_prediction` mainly depends on the Python scientific stack.
 
 ```
 libsvm
@@ -78,8 +78,28 @@ git clonehttps://github.com/zqs-ops/svm_for_perching_prediction.git
 
 ## Demo
 
-当构件完成代码运行环境后，你只需运行
+### Execution method
 
-- Running time：
+- mlp: mlp/demo.py
+- random_forest: random_forest/demo.py
+- svm: svm/demo.py
+
+### Expected output
+
+- mlp: “demo_training_history.txt” and “demo_decision_boundary_data.txt”.
+- random_forest: “demo_estimator.xlsx”.
+- svm: “demo_predictions_best_model.txt” and “demo_svm_decision_boundary_comparison.png”.
+
+### Expected run time
+
+- No more than 3 minutes.
 
 ### Instructions for use
+
+For different machine learning methods, just run the corresponding programs below:
+
+- mlp: mlp/mlp.py
+- random_forest: random_forest/random_forest.py
+- svm: svm/svm.py
+
+Note: There are two sets of original input data provided, and readers need to switch between them.
